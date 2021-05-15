@@ -97,6 +97,7 @@ p {
 }
 .bottomnavbar {
   text-align: center;  
+  color: white;
   background-color: black;
   position: fixed;
   bottom: 0;
