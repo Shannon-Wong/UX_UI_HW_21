@@ -7,6 +7,26 @@ p {
   font-family: "Lato", sans-serif;
   text-align: center;
 }
+.container-fluid1 {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+.row {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+.col {
+  justify-content: center;
+  text-align: center;
+}
+.image-process {
+  width: 100%;
+  height: auto;
+  padding: 5%;
+}
 .center {
     display:block;
     margin-top: 5%;
@@ -51,6 +71,7 @@ p {
 }
 .bottomnavbar {
   text-align: center;  
+  color: white;
   background-color: black;
   position: fixed;
   bottom: 0;
@@ -63,7 +84,6 @@ padding: 14px 16px;
 text-decoration: none;
 font-size: 1.2vw;
 }
-
 .bottomnavbar a:hover {
 background-color: gray;
 text color: white;

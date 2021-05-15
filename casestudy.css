@@ -23,15 +23,19 @@ p {
   text-align: center;
 }
 .container-fluid1 {
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 5%;
+  padding: 5% 5%;
 }
 .row {
   justify-content: center;
   text-align: center;
-  word-wrap: break-word;
+  align-items: center;
+  align-content: center;
 }
+.col {
+  justify-content: center;
+  text-align: center;
+}
+
 .image-center {
   width: 100%;
   padding: 5%;
@@ -42,6 +46,11 @@ p {
   height: auto;
   padding: 5%;
 }
+.image-process-top {
+  width: 90%;
+  height: auto;
+}
+
 .image-usability {
   width: 600px;
   height: auto;
