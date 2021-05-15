@@ -1,13 +1,1 @@
-# UX_UI_HW_19
-# UX_UI_HW_20
-<<<<<<< HEAD
-# UX_UI_HW_21
-# UX_UI_HW_21
-# UX_UI_HW_21
-# UX_UI_HW_21
-=======
->>>>>>> 44f79c2749c6ac32293dca833d6b10cbb5d823d1
-# UX_UI_HW_21
-# UX_UI_HW_21
-# UX_UI_HW_21
 # UX_UI_HW_21
