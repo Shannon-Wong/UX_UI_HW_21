@@ -2,30 +2,61 @@ body {
   font-family: 'Opensans', sans-serif;
   margin: 0;
   padding: 0;
+  align-items: center;
 }
+h2 {
+  font-family: 'Opensans', sans-serif;
+  font-size: 1.2vw;
+  font-weight: bold;
+  text-align: center;
+}
+h3 {
+  font-family: 'Opensans', sans-serif;
+  font-size: .7vw;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
 p {
   font-family: "Lato", sans-serif;
   text-align: center;
 }
 .container-fluid1 {
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 5%;
+  padding: 5% 5%;
 }
 .row {
   justify-content: center;
   text-align: center;
   align-items: center;
+  align-content: center;
 }
 .col {
   justify-content: center;
   text-align: center;
 }
-.image-process {
+
+.image-center {
   width: 100%;
+  padding: 5%;
+  height: auto;
+}
+.image-process {
+  width: 75%;
   height: auto;
   padding: 5%;
 }
+.image-process-top {
+  width: 90%;
+  height: auto;
+}
+
+.image-usability {
+  width: 600px;
+  height: auto;
+  padding: 5%;
+}
+
 .center {
     display:block;
     margin-top: 5%;
@@ -56,10 +87,6 @@ p {
   background-color: gray;
   color: white;
 }
-.image-left {
-  width: 30vw;
-  height: auto;
-}
 .Header {
   margin-top: 2%;
   margin-bottom: 2%;
@@ -83,63 +110,31 @@ padding: 14px 16px;
 text-decoration: none;
 font-size: 1.2vw;
 }
+
 .bottomnavbar a:hover {
 background-color: gray;
 text color: white;
 overflow: hidden;
 }
 
-  /* The Close Button */
-  .close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-  }
-  .close:hover,
-  .close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-.aligned{
-  margin-top: 10%;
-  margin-right: 10%;
-  margin-left: 10%;
+.button {
+  font-size: 10px;
+  text-align: center;
+  justify-items: inherit;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color:gray
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 3px #999;
+  display: inline-flex;
 }
-  .container-fluid1 {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-  .row {
-    justify-content: center;
-    text-align: center;
-    word-wrap: break-word;
-  }
-  .flex {
-    display: flex;
-    padding: 5%;
-  }
-  .flex .aboutimg {
-    display: flex;
-    flex: 1;
-  }
-  .flex p {
-    display: flex;
-    flex: 2;
-  }
-  .flex .aboutimg img {
-    width: 100%;
+.button:hover {
+  background-color:gray}
 }
-    /* 100% Image Width on Smaller Screens */
-    @media only screen and (max-width: 700px){
-      .modal-content {
-        width: 100%;
-      }
-    }
+.button:active {
+  background-color: gray;
+  box-shadow: 0 1px #666;
+  transform: translateY(2px);
+}
