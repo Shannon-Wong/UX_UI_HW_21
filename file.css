@@ -15,7 +15,7 @@ img.center {
     margin-right: auto;
     width: 50%;
 }
-.topnav {
+.navbar {
   text-align: center;
   margin-top: 2%;
   margin-right: auto;
@@ -24,7 +24,8 @@ img.center {
   display: flex;
   justify-content: center;
 }
-.topnav a , .dropdown a{
+
+.navbar a , .dropdown a{
   color: black;
   text-align: center;
   padding: 14px 16px;
@@ -35,11 +36,11 @@ img.center {
   display: flex;
   overflow: hidden;
 }
-.topnav a:hover {
+.navbar a:hover {
   background-color: #ddd;
   color: black;
 }
-.topnav a.active {
+.navbar a.active {
   background-color: gray;
   color: white;
 }
