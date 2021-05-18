@@ -7,16 +7,17 @@ body {
   margin: 0;
   padding: 0;
 }
-.center {
+img.center {
     display:flex;
     margin-top: 5%;
+    margin-bottom: 5%;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
 .topnav {
   text-align: center;
-  margin-top: 1%;
+  margin-top: 2%;
   margin-right: auto;
   margin-left: auto;
   overflow: hidden;
@@ -53,8 +54,9 @@ body {
   background-color: #f9f9f9;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  top: calc(6vh + 15px)
+  top: calc(6vh + 1.2vw);
 }
+
 .dropdown-content a {
   float: none;
   color: black;
